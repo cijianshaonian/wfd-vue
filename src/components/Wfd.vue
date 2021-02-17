@@ -150,6 +150,7 @@
         window.addEventListener("resize", this.resizeFunc);
       },
       onItemCfgChange(key,value){
+        debugger
         const items = this.graph.get('selectedItems');
         if(items && items.length > 0){
           let item = this.graph.findById(items[0]);

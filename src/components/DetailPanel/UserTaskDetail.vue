@@ -1,6 +1,6 @@
 <template>
     <div :data-clazz="model.clazz">
-        <div class="panelTitle">{{i18n['userTask']}}</div>
+        <div class="panelTitle">任务节点</div>
         <div class="panelBody">
             <DefaultDetail :model="model" :onChange="onChange" :readOnly="readOnly" />
             <div class="panelRow">
